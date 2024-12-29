@@ -12,4 +12,8 @@ textbold.addEventListener('click', function() {
 
 textarea.addEventListener('change', function(){
   localStorage.setItem('Japplan', textarea.value);
-})
+});
+
+textcolor.addEventListener('change', function(){
+  textarea.style.color = textcolor.value;
+});
